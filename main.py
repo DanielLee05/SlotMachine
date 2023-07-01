@@ -1,6 +1,8 @@
+#Just trying to understand how things work :')
+
 import random
 
-
+#variables to be changed at discretion
 MAX_LINES = 3
 MAX_BET = 100
 MIN_BET = 1
@@ -8,6 +10,7 @@ MIN_BET = 1
 ROWS = 3
 COLS = 3
 
+#Amount of symbols that can be present in each "row"
 symbol_count = {
     "A": 2,
     "B": 4,
@@ -15,6 +18,7 @@ symbol_count = {
     "D": 8
 }
 
+#Multiplier on winning. 3 A's in a row is 5x the bet
 symbol_value = {
     "A": 5,
     "B": 4,
